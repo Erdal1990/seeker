@@ -1,19 +1,139 @@
-[Sat Aug 24 10:03:14 2019] 127.0.0.1:46454 [200]: /nearyou/index.html
-[Sat Aug 24 10:03:27 2019] 127.0.0.1:46460 [200]: /nearyou/
-[Sat Aug 24 10:03:27 2019] 127.0.0.1:46464 [200]: /nearyou/css/main.css
-[Sat Aug 24 10:03:27 2019] 127.0.0.1:46468 [200]: /nearyou/js/main.js
-[Sat Aug 24 10:03:27 2019] 127.0.0.1:46472 [200]: /nearyou/js/location.js
-[Sat Aug 24 10:03:27 2019] 127.0.0.1:46476 [200]: /nearyou/js/warpspeed.min.js
-[Sat Aug 24 10:03:27 2019] 127.0.0.1:46480 [200]: /nearyou/js/info.js
-[Sat Aug 24 10:03:28 2019] 127.0.0.1:46484 [200]: /nearyou/
-[Sat Aug 24 10:03:29 2019] 127.0.0.1:46488 [200]: /nearyou/css/main.css
-[Sat Aug 24 10:03:29 2019] 127.0.0.1:46492 [200]: /nearyou/js/main.js
-[Sat Aug 24 10:03:29 2019] 127.0.0.1:46496 [200]: /nearyou/js/location.js
-[Sat Aug 24 10:03:29 2019] 127.0.0.1:46500 [200]: /nearyou/js/info.js
-[Sat Aug 24 10:03:29 2019] 127.0.0.1:46504 [200]: /nearyou/js/warpspeed.min.js
-[Sat Aug 24 10:03:30 2019] 127.0.0.1:46508 [200]: /nearyou/php/info.php
-[Sat Aug 24 10:03:32 2019] 127.0.0.1:46512 [200]: /nearyou/php/result.php
-PHP 7.3.8 Development Server started at Sat Aug 24 10:03:12 2019
-Listening on http://127.0.0.1:8080
-Document root is /home/unknown/tools/seeker/template
-Press Ctrl-C to quit.
+[Thu Dec 16 11:14:11 2021] PHP 7.4.21 Development Server (http://0.0.0.0:8080) started
+[Thu Dec 16 11:14:14 2021] 127.0.0.1:59868 Accepted
+[Thu Dec 16 11:14:14 2021] 127.0.0.1:59868 [200]: (null) /index.html
+[Thu Dec 16 11:14:14 2021] 127.0.0.1:59868 Closing
+[Thu Dec 16 11:14:27 2021] 127.0.0.1:59888 Accepted
+[Thu Dec 16 11:14:27 2021] 127.0.0.1:59888 [200]: (null) /
+[Thu Dec 16 11:14:27 2021] 127.0.0.1:59888 Closing
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59904 Accepted
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59902 Accepted
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59906 Accepted
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59904 [200]: (null) /js/main.js
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59906 [200]: (null) /js/location.js
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59902 [200]: (null) /css/main.css
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59904 Closing
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59906 Closing
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59902 Closing
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59914 Accepted
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59916 Accepted
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59914 [200]: (null) /js/info.js
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59916 [200]: (null) /js/warpspeed.min.js
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59914 Closing
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59916 Closing
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59922 Accepted
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59922 [200]: POST /php/info.php
+[Thu Dec 16 11:14:29 2021] 127.0.0.1:59922 Closing
+[Thu Dec 16 11:14:49 2021] 127.0.0.1:59940 Accepted
+[Thu Dec 16 11:14:49 2021] 127.0.0.1:59940 [200]: POST /
+[Thu Dec 16 11:14:49 2021] 127.0.0.1:59940 Closing
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59950 Accepted
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59950 [200]: POST /css/main.css
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59950 Closing
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59954 Accepted
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59958 Accepted
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59954 [200]: POST /js/location.js
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59962 Accepted
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59958 [200]: POST /js/warpspeed.min.js
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59966 Accepted
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59962 [200]: POST /js/info.js
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59954 Closing
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59966 [200]: POST /js/main.js
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59958 Closing
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59962 Closing
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59966 Closing
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59974 Accepted
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59974 [200]: POST /php/info.php
+[Thu Dec 16 11:14:51 2021] 127.0.0.1:59974 Closing
+[Thu Dec 16 11:17:18 2021] 127.0.0.1:60024 Accepted
+[Thu Dec 16 11:17:18 2021] 127.0.0.1:60024 [200]: POST /
+[Thu Dec 16 11:17:18 2021] 127.0.0.1:60024 Closing
+[Thu Dec 16 11:17:20 2021] 127.0.0.1:60034 Accepted
+[Thu Dec 16 11:17:21 2021] 127.0.0.1:60046 Accepted
+[Thu Dec 16 11:17:21 2021] 127.0.0.1:60034 [200]: POST /css/main.css
+[Thu Dec 16 11:17:21 2021] 127.0.0.1:60046 [200]: POST /js/main.js
+[Thu Dec 16 11:17:21 2021] 127.0.0.1:60034 Closing
+[Thu Dec 16 11:17:21 2021] 127.0.0.1:60046 Closing
+[Thu Dec 16 11:17:21 2021] 127.0.0.1:60058 Accepted
+[Thu Dec 16 11:17:21 2021] 127.0.0.1:60056 Accepted
+[Thu Dec 16 11:17:21 2021] 127.0.0.1:60062 Accepted
+[Thu Dec 16 11:17:21 2021] 127.0.0.1:60058 [200]: POST /js/warpspeed.min.js
+[Thu Dec 16 11:17:21 2021] 127.0.0.1:60056 [200]: POST /js/info.js
+[Thu Dec 16 11:17:21 2021] 127.0.0.1:60062 [200]: POST /js/location.js
+[Thu Dec 16 11:17:21 2021] 127.0.0.1:60058 Closing
+[Thu Dec 16 11:17:21 2021] 127.0.0.1:60056 Closing
+[Thu Dec 16 11:17:21 2021] 127.0.0.1:60062 Closing
+[Thu Dec 16 11:17:24 2021] 127.0.0.1:60070 Accepted
+[Thu Dec 16 11:17:24 2021] 127.0.0.1:60070 [200]: POST /php/info.php
+[Thu Dec 16 11:17:24 2021] 127.0.0.1:60070 Closing
+[Thu Dec 16 11:17:26 2021] 127.0.0.1:60076 Accepted
+[Thu Dec 16 11:17:26 2021] 127.0.0.1:60076 [200]: POST /php/result.php
+[Thu Dec 16 11:17:26 2021] 127.0.0.1:60076 Closing
+[Thu Dec 16 11:39:16 2021] 127.0.0.1:60150 Accepted
+[Thu Dec 16 11:39:16 2021] 127.0.0.1:60150 [200]: POST /
+[Thu Dec 16 11:39:16 2021] 127.0.0.1:60150 Closing
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60164 Accepted
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60166 Accepted
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60164 [200]: POST /css/main.css
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60168 Accepted
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60166 [200]: POST /js/main.js
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60174 Accepted
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60168 [200]: POST /js/warpspeed.min.js
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60176 Accepted
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60164 Closing
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60174 [200]: POST /js/location.js
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60166 Closing
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60176 [200]: POST /js/info.js
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60168 Closing
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60174 Closing
+[Thu Dec 16 11:39:17 2021] 127.0.0.1:60176 Closing
+[Thu Dec 16 11:39:18 2021] 127.0.0.1:60182 Accepted
+[Thu Dec 16 11:39:18 2021] 127.0.0.1:60182 [200]: POST /php/info.php
+[Thu Dec 16 11:39:18 2021] 127.0.0.1:60182 Closing
+[Thu Dec 16 11:39:22 2021] 127.0.0.1:60194 Accepted
+[Thu Dec 16 11:39:22 2021] 127.0.0.1:60194 [200]: POST /php/result.php
+[Thu Dec 16 11:39:22 2021] 127.0.0.1:60194 Closing
+[Thu Dec 16 11:39:31 2021] 127.0.0.1:60200 Accepted
+[Thu Dec 16 11:39:31 2021] 127.0.0.1:60200 [200]: POST /php/result.php
+[Thu Dec 16 11:39:31 2021] 127.0.0.1:60200 Closing
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60204 Accepted
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60204 [200]: POST /php/result.php
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60204 Closing
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60212 Accepted
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60214 Accepted
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60212 [200]: POST /php/result.php
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60212 Closing
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60216 Accepted
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60214 [200]: POST /php/result.php
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60214 Closing
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60216 [200]: POST /php/result.php
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60216 Closing
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60222 Accepted
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60226 Accepted
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60228 Accepted
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60222 [200]: POST /php/result.php
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60222 Closing
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60226 [200]: POST /php/result.php
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60226 Closing
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60228 [200]: POST /php/result.php
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60228 Closing
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60236 Accepted
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60234 Accepted
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60236 [200]: POST /php/result.php
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60236 Closing
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60234 [200]: POST /php/result.php
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60234 Closing
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60244 Accepted
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60248 Accepted
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60250 Accepted
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60244 [200]: POST /php/result.php
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60244 Closing
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60248 [200]: POST /php/result.php
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60248 Closing
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60250 [200]: POST /php/result.php
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60250 Closing
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60256 Accepted
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60258 Accepted
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60256 [200]: POST /php/result.php
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60256 Closing
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60258 [200]: POST /php/result.php
+[Thu Dec 16 11:39:36 2021] 127.0.0.1:60258 Closing
